@@ -42,7 +42,7 @@ try:
     if len(UPSTREAM_BRANCH) == 0:
        raise TypeError
 except:
-    UPSTREAM_BRANCH = 'upstream'
+    UPSTREAM_BRANCH = 'vps'
 
 if ospath.exists('.git'):
     srun(["rm", "-rf", ".git"])
